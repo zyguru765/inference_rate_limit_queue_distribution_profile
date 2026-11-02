@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "zyguru765-costgov_jd308"
+name = "zyguru765-inference_rate_limit_queue_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别成本与容量治理专家·推理服务的限流与排队上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://zyguru765.github.io"
-Repository = "https://github.com/zyguru765/costgov_jd308"
-Issues = "https://github.com/zyguru765/costgov_jd308/issues"
+Repository = "https://github.com/zyguru765/inference_rate_limit_queue_distribution_profile"
+Issues = "https://github.com/zyguru765/inference_rate_limit_queue_distribution_profile/issues"
 
 [project.scripts]
-costgov_jd308 = "costgov_jd308:main"
+inference_rate_limit_queue_distribution_profile = "inference_rate_limit_queue_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["costgov_jd308"]
+py-modules = ["inference_rate_limit_queue_distribution_profile"]

@@ -1,11 +1,11 @@
-# costgov_jd308
+# inference_rate_limit_queue_distribution_profile
 
 **分析成本与容量治理专家·推理服务的限流与排队的数值分布并标出离群点。**
 
-`costgov_jd308` —— 抽取数值做分布分析，用中位数绝对偏差识别成本与容量治理专家·推理服务的限流与排队上的离群点
+`inference_rate_limit_queue_distribution_profile` —— 抽取数值做分布分析，用中位数绝对偏差识别成本与容量治理专家·推理服务的限流与排队上的离群点
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`costgov_jd308.py` 拷走就能用
+- 单文件，`inference_rate_limit_queue_distribution_profile.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install zyguru765-costgov_jd308
+pip install zyguru765-inference_rate_limit_queue_distribution_profile
 ```
 
 装完直接用命令名调用：
 
 ```bash
-costgov_jd308 --help
+inference_rate_limit_queue_distribution_profile --help
 ```
 
-也可以不用安装，直接把 `costgov_jd308.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `inference_rate_limit_queue_distribution_profile.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ costgov_jd308 --help
 ## 用法
 
 ```bash
-python costgov_jd308.py --file input.txt
-python costgov_jd308.py --text "示例内容"
-python costgov_jd308.py --file input.txt --json
+python inference_rate_limit_queue_distribution_profile.py --file input.txt
+python inference_rate_limit_queue_distribution_profile.py --text "示例内容"
+python inference_rate_limit_queue_distribution_profile.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python costgov_jd308.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_costgov_jd308.py
+python test_inference_rate_limit_queue_distribution_profile.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_costgov_jd308.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/zyguru765/costgov_jd308>
+- GitHub 仓库：<https://github.com/zyguru765/inference_rate_limit_queue_distribution_profile>
 
 ---
 
@@ -79,7 +79,7 @@ python test_costgov_jd308.py
 zyguru765 做成本与容量治理专家·推理服务的限流与排队相关的问题，方向对标微软的架构成本与容量治理专家岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://zyguru765.github.io>
-- 仓库：<https://github.com/zyguru765/costgov_jd308>
+- 仓库：<https://github.com/zyguru765/inference_rate_limit_queue_distribution_profile>
 
 ## 许可
 
